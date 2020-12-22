@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;600;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<style>
+
+
+
+
+
+
+
+    html{
+        color:  
+
+    }
+    body{
+        background-color: #EEE0D7;
+         color: #540908;   
+
+
+
+ }
+    #box-orange{
+        background-color: #F75606;
+        height: 450px;
+        padding-left: 100px;
+        padding-right: 150px;
+        min-width: 500px;
+
+    }
+
+    .navbar{
+        display:inline-block;
+    }
+.navlink{
+    color: #540908;   
+
+}
+    #login{
+        float:right;
+        margin-right: 15px;
+        border: 3px #540908 solid;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: #540908;   
+font-weight: bold;
+        font-size: 15px;
+
+
+    }
+
+.reds{
+    color: #540908;
+}
+    #btn-login {
+
+        border: 1px black solid;
+
+    }
+
+    nav{
+        font-family: 'Mutka', sans-serif;
+
+    }
+
+    .navbar-brand{
+
+        padding-left: 10px;
+    }
+
+    #header{
+     font-family: 'Mukta';
+     font-weight: 800;
+     font-size: 50px;
+    }
+
+    #header2{
+     font-family: 'Mukta';
+     font-weight: 800;
+     font-size: 50px;
+     -webkit-text-stroke: 2px #540908;
+    -webkit-text-fill-color:#F75606;
+    line-height: 0.9;
+    }
+
+
+    #box{
+        width: 300px;
+        text-justify: left;
+        float: left;
+        z-index: 1;
+        position: relative;
+
+    }
+
+    
+
+    #cerillas{
+        height: 300px;
+        transform: rotate(-2deg);
+        margin-top: 95px;
+        float: right;
+        z-index: 0;
+        position: relative;
+
+    }
+
+    #sign-button{
+        display: inline-block;
+        background-color: #E9C121;
+        color:#540908;
+        height: inherit;
+        font-weight: bold;
+        border: 10px  #E9C121 solid ;
+        width: 100px;
+    }
+
+    #input{
+        display: inline-block;
+        width: 150px;
+        height: inherit;
+        padding: 5px;
+        border: none;
+
+
+    }
+#formsquare{
+    height: 50px;
+    border: grey;
+}
+ /*  @media (max-width: 995px) {
+    
+           #cerillas{
+               height: 40%;
+               float: none;
+               padding-left: 50px;
+           }
+
+           #box{
+            float: center;
+
+           }
+  } */
+  @media (max-width: 995px) {
+    #cerillas{
+               height: 40%;
+               float: none;
+                }
+                #box{
+            float: none;
+
+           }
+           #header{
+            -webkit-text-stroke: 2px #540908;
+            -webkit-text-fill-color:#F75606;
+
+            
+
+           }
+  }
+
+  @media (max-device-width: 720px) {
+      #box-orange{
+          background-color: red;
+          width: 10%;
+      }
+
+}  
+  
+</style>
+  </head>
+  <body>
+    <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-none pl-4">
+        <div class="container">
+            <img id="icon" src="icon.png"  width="30" height="30" class="d-inline-block align-top" alt="">
+
+          <a style="color: #540908; font-weight: bold;"class="navbar-brand" href="#">MatchBox     </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a style="color: #540908;" class="nav-link" href="#">Home</a>
+                <a style="color: #540908;"class="nav-link" href="#">Features</a>
+              <a style="color: #540908;"class="nav-link" href="#">Pricing</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <button id="login" class="mt-3 pr-3">Log In</button>
+
+      <div class="container pt-2 mt-2">
+      <div id="box-orange" class="container">
+          <div class="row">
+              <div class="col-6 ">
+                  <div id="box" class="container pt-5 mt-5">
+                  <h1 id="header">Save your team from</h1>
+                  <h1 class="mt-0" id="header2">burnout</h1>
+                    <div id="formsquare" class="form-group mt-5">
+                        <input id="input" type="text" placeholder="email"><button id="sign-button">Sign Up</button>
+                    </div>
+                                       </div>
+
+              </div>
+              <div class="col-6">
+                  <img id="cerillas" src="cerillas2.png">
+            </div>
+        </div>
+
+            </div>
+
+            
+          </div>
+
+   
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
